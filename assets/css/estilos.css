@@ -1,7 +1,9 @@
 .menu{
     background-color: #fd5100; position: sticky; top: 0; z-index: 1;
-
   }
+.linea{
+  border-bottom: 5px solid #fd5100;
+}
   /* Typography */
 body, ul, li, a, p, label, input, div {
     font-family: 'Montserrat', sans-serif;
@@ -39,6 +41,7 @@ body, ul, li, a, p, label, input, div {
 .text-success { color: #fff !important;}
 .text-light { color: #1177BB !important;}
 .bg-dark { background-color: #d4d3d3 !important;}
+.bg-red { background-color: #ff0000 !important;}
 .bg-light { background-color: #fcfcfc !important;}
 .bg-black { background-color: #d4d3d3 !important;}
 .bg-success { background-color: #fd5100 !important;}
@@ -110,7 +113,7 @@ body, ul, li, a, p, label, input, div {
   }
   #template-mo-zay-hero-carousel .carousel-control-next i,
   #template-mo-zay-hero-carousel .carousel-control-prev i {
-    color: #fd5100 !important;
+    color: #fff !important;
     font-size: 2.8em !important;
   }
   /* Carousel Brand */
@@ -219,14 +222,6 @@ body, ul, li, a, p, label, input, div {
 
 .text-muted{
   font-size: medium;
-}.opciones{
-  margin: auto;
-}
-.opciones:hover{
-  border-bottom: 5px solid #fd5100;
-}
-.opciones:active{
-  border-bottom: 5px solid #fd5100;
 }
 .btn-shop{
     background-color: #349b12;
@@ -238,4 +233,17 @@ body, ul, li, a, p, label, input, div {
   cursor: pointer;
   border-radius:10px !important;
     }
+
+
+.ctn-oferta{
+position: absolute;
+width: 380px;
+height: 137px;
+left: 883px;
+top: 188px;
+background: rgba(255, 65, 65, 0.57);
+filter: blur(.5px);
+backdrop-filter: blur(1.5px);
+}
+
 /* SECCION DE LOGIN*/

@@ -64,22 +64,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 
 <body class="login">
-  <!-- <div class="carousel">
-      <img
-        src="assets/img/EXTFACHADA.png"
-        class="carousel-image"
-        alt="Image 1"
-      />
-      <img
-        src="assets/img/CachitodeCielo.png"
-        class="carousel-image"
-        alt="Image 2"
-      />
-      <img src="assets/img/Fachada1.jpg" 
-      class="carousel-image" 
-      alt="Image 3" />
-    </div> -->
-
   <div class="login-container-up">
   <button  class="btn" style="position:absolute;top:0;right:0;padding: .5rem; margin:.7rem;" type="button" data-dismiss="modal">
   <i class="fa-solid fa-xmark fa-lg text-white"></i>
@@ -111,7 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 
     <div class="register">
-      <p>¿Aún no tienes cuenta? <a href=" registrar.php">Regístrate</a></p>
+      <p>¿Aún no tienes cuenta? <button id="btnAbrirModal2">Regístrate</button></p>
     </div>
   </div>
 

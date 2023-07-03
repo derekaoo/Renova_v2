@@ -6,7 +6,7 @@
         <div class="container d-flex p-0 m-auto">
             <div class="d-flex">
                 <a class="navbar-brand" href="index.php">
-                    <img src="assets/img/logo.png" alt="logo" class="logo ">
+                    <img src="assets/img/logo2.png" alt="logo" class="logo ">
                 </a>
                 <a href="" class="text-decoration-none text-white">
                     <h6 class="m-0" ><i class="fa fa-fw fa-solid fa-map text-white"></i>
@@ -59,6 +59,39 @@
                     </button> 
                     </a>
                      
+        <div class="btn-group btn-group-toggle " data-toggle="buttons">
+    <div class="d-none d-sm-block">
+    <div class="btn-group text-light" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn opciones dropdown-toggle text-white" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Servicios
+        </button>
+        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+        </div>
+    </div>
+
+    <div class="btn-group " role="group">
+        <button id="btnGroupDrop1" type="button" class="btn opciones dropdown-toggle text-white" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Inmobiliaria
+        </button>
+        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="#">Dropdown link2</a>
+            <a class="dropdown-item" href="#">Dropdown link2</a>
+        </div>
+    </div>
+
+    <div class="btn-group " role="group">
+        <button id="btnGroupDrop1" type="button" class="btn opciones dropdown-toggle text-white" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Ofertas
+        </button>
+        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+        </div>
+    </div>
+    </div>
+</div>
                     </div>
     </nav>
     <!-- fin de barra del menu -->
@@ -93,39 +126,7 @@
 
 
 
-<div class="btn-group btn-group-toggle " data-toggle="buttons">
-    <div class="d-none d-sm-block">
-    <div class="btn-group " role="group">
-        <button id="btnGroupDrop1" type="button" class="btn btn-light opciones dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Servicios
-        </button>
-        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-            <a class="dropdown-item" href="#">Dropdown link</a>
-            <a class="dropdown-item" href="#">Dropdown link</a>
-        </div>
-    </div>
 
-    <div class="btn-group " role="group">
-        <button id="btnGroupDrop1" type="button" class="btn btn-light opciones dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Inmobiliaria
-        </button>
-        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-            <a class="dropdown-item" href="#">Dropdown link2</a>
-            <a class="dropdown-item" href="#">Dropdown link2</a>
-        </div>
-    </div>
-
-    <div class="btn-group " role="group">
-        <button id="btnGroupDrop1" type="button" class="btn btn-light opciones dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Ofertas
-        </button>
-        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-            <a class="dropdown-item" href="#">Dropdown link</a>
-            <a class="dropdown-item" href="#">Dropdown link</a>
-        </div>
-    </div>
-    </div>
-</div>
 
             <!-- Menu para moviles -->
 <div class="row collapse navbar-collapse flex-fill text-dark mx-auto m-1" id="templatemo_main_nav">

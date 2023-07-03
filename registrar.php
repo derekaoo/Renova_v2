@@ -93,9 +93,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <p>¿Ya tienes cuenta? <button id="btnRegresarModal1">Inicia sesión</button></p>
     </div>
   </div>
-
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script type="text/javascript" src="assets/js/modal.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 </body>
 
 </html>
