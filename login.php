@@ -73,15 +73,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   </div>
 
 
-
-
-
-
-
-
-
-  
-
   <div class="login-container">
 
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
