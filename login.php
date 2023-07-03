@@ -72,6 +72,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <h4>Ingresa a tu cuenta de RENOVA DEPOT</h4>
   </div>
 
+
+
+
+
+
+
+
+
+  
+
   <div class="login-container">
 
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
