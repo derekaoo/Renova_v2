@@ -9,7 +9,7 @@
                     <img src="assets/img/logo2.png" alt="logo" class="logo ">
                 </a>
                 <a href="" class="text-decoration-none text-white">
-                    <h6 class="m-0" ><i class="fa fa-fw fa-solid fa-map text-white"></i>
+                    <h6 class="m-0" ><i class="fa-solid fa-map-pin text-white"></i>
                     Oficina: Paseo de las Parras #229 <br>
                     Valle Verde #34284 Durango, Dgo.</h6>
                 </a>
